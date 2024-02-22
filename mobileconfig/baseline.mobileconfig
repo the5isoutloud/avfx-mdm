@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
@@ -6,7 +7,7 @@
 		<dict>
 			<key>Installomator</key>
 			<array>
-                <dict>
+				<dict>
 					<key>DisplayName</key>
 					<string>Microsoft Office</string>
 					<key>Icon</key>
@@ -37,14 +38,6 @@
 					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/handbrake.png</string>
 					<key>Label</key>
 					<string>handbrake</string>
-				</dict>
-				<dict>
-					<key>DisplayName</key>
-					<string>OBS Studio</string>
-					<key>Icon</key>
-					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/obs.png</string>
-					<key>Label</key>
-					<string>obs</string>
 				</dict>
 				<dict>
 					<key>DisplayName</key>
@@ -89,7 +82,7 @@
 			<key>PayloadType</key>
 			<string>com.secondsonconsulting.baseline</string>
 			<key>PayloadUUID</key>
-			<string>EAC85C2B-1F15-46F6-A89A-4119166203F0</string>
+			<string>E8EE6F6D-F225-4285-8ECE-CDD21A423582</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProgressBar</key>
@@ -104,11 +97,11 @@
 					<key>Icon</key>
 					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/playbackproplusx.png</string>
 					<key>ScriptPath</key>
-					<string>https://raw.githubusercontent.com/the5isoutloud/avfx-mdm/main/installPlaybackProPlusX.sh</string>
+					<string>https://raw.githubusercontent.com/avfx-it/avfx-mdm/main/scripts/installPlaybackProPlusX.sh</string>
 				</dict>
 				<dict>
 					<key>Arguments</key>
-					<string>"avfx" "tech*"</string>
+					<string>"avfx tech*"</string>
 					<key>DisplayName</key>
 					<string>Set Auto Login</string>
 					<key>Icon</key>
@@ -122,7 +115,7 @@
 					<key>Icon</key>
 					<string>SF=menubar.dock.rectangle,color=accent</string>
 					<key>ScriptPath</key>
-					<string>https://raw.githubusercontent.com/the5isoutloud/avfx-mdm/main/configureDockutil.sh</string>
+					<string>https://raw.githubusercontent.com/avfx-it/avfx-mdm/main/scripts/configureDockutil.sh</string>
 				</dict>
 			</array>
 		</dict>
@@ -134,7 +127,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>03DB2A52-E685-4FEC-B6C7-259DCF6B85E1</string>
+	<string>526FB46D-CCF3-43A7-B05E-0BB9F05A52BA</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
