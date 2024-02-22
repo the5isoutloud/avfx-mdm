@@ -1,0 +1,141 @@
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>Installomator</key>
+			<array>
+                <dict>
+					<key>DisplayName</key>
+					<string>Microsoft Office</string>
+					<key>Icon</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/office.png</string>
+					<key>Label</key>
+					<string>microsoftofficebusinesspro</string>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Google Chrome</string>
+					<key>Icon</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/chrome.png</string>
+					<key>Label</key>
+					<string>googlechrome</string>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Adobe Acrobat Reader</string>
+					<key>Icon</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/acrobat.png</string>
+					<key>Label</key>
+					<string>adobereaderdc</string>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Handbrake</string>
+					<key>Icon</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/handbrake.png</string>
+					<key>Label</key>
+					<string>handbrake</string>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>OBS Studio</string>
+					<key>Icon</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/obs.png</string>
+					<key>Label</key>
+					<string>obs</string>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Zoom</string>
+					<key>Icon</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/zoom.png</string>
+					<key>Label</key>
+					<string>zoom</string>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Zerotier</string>
+					<key>Icon</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/zerotier.png</string>
+					<key>Label</key>
+					<string>zerotier</string>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Dockutil</string>
+					<key>Icon</key>
+					<string>SF=menubar.dock.rectangle,color=accent</string>
+					<key>Label</key>
+					<string>dockutil</string>
+				</dict>
+			</array>
+			<key>Packages</key>
+			<array>
+				<dict>
+					<key>DisplayName</key>
+					<string>Office for Mac - Serializer</string>
+					<key>Icon</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/office.png</string>
+					<key>PackagePath</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/office_for_mac/Microsoft_Office_LTSC_2021_VL_Serializer.pkg</string>
+				</dict>
+			</array>
+			<key>PayloadDisplayName</key>
+			<string>Baseline</string>
+			<key>PayloadIdentifier</key>
+			<string>com.secondsonconsulting.baseline.195D1D58-F37B-4AAC-AA5D-DFABDCA00644</string>
+			<key>PayloadType</key>
+			<string>com.secondsonconsulting.baseline</string>
+			<key>PayloadUUID</key>
+			<string>EAC85C2B-1F15-46F6-A89A-4119166203F0</string>
+			<key>PayloadVersion</key>
+			<integer>1</integer>
+			<key>ProgressBar</key>
+			<true/>
+			<key>ProgressBarDisplayNames</key>
+			<true/>
+			<key>Scripts</key>
+			<array>
+				<dict>
+					<key>DisplayName</key>
+					<string>Install Playback pro</string>
+					<key>Icon</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/playbackproplusx.png</string>
+					<key>ScriptPath</key>
+					<string>https://raw.githubusercontent.com/the5isoutloud/avfx-mdm/main/installPlaybackProPlusX.sh</string>
+				</dict>
+				<dict>
+					<key>Arguments</key>
+					<string>"avfx" "tech*"</string>
+					<key>DisplayName</key>
+					<string>Set Auto Login</string>
+					<key>Icon</key>
+					<string>SF=person.circle.fill,color=accent</string>
+					<key>ScriptPath</key>
+					<string>https://raw.githubusercontent.com/brunerd/macAdminTools/main/Scripts/setAutoLogin.sh</string>
+				</dict>
+				<dict>
+					<key>DisplayName</key>
+					<string>Set Dock</string>
+					<key>Icon</key>
+					<string>SF=menubar.dock.rectangle,color=accent</string>
+					<key>ScriptPath</key>
+					<string>https://raw.githubusercontent.com/the5isoutloud/avfx-mdm/main/configureDockutil.sh</string>
+				</dict>
+			</array>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>AVFX-Rental Baseline</string>
+	<key>PayloadIdentifier</key>
+	<string>Kristofers-M2-MacBook-Air.FE6DC244-32B1-4E72-91D2-E33A2BEFB432</string>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>03DB2A52-E685-4FEC-B6C7-259DCF6B85E1</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>
