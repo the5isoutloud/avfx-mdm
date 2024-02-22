@@ -101,7 +101,7 @@
 				</dict>
 				<dict>
 					<key>Arguments</key>
-					<string>"avfx tech*"</string>
+					<string>"avfx" "tech*"</string>
 					<key>DisplayName</key>
 					<string>Set Auto Login</string>
 					<key>Icon</key>
