@@ -12,28 +12,28 @@ fi
 # vars to use script and set current logged in user dock
 killall="/usr/bin/killall"
 loggedInUser=$( ls -l /dev/console | awk '{print $3}' )
-LoggedInUserHome="/Users/$loggedInUser"
+LoggedInUserHome="/Users/avfx"
 UserPlist=$LoggedInUserHome/Library/Preferences/com.apple.dock.plist
 ################################################################################
 # Use Dockutil to Modify Logged-In User's Dock
 ################################################################################
 echo "------------------------------------------------------------------------"
-echo "Current logged-in user: $loggedInUser"
+echo "Current logged-in user: avfx"
 echo "------------------------------------------------------------------------"
 echo "Removing all Items from the Logged-In User's Dock..."
-sudo -u $loggedInUser $dockutil --remove all --no-restart $UserPlist
+sudo -u avfx $dockutil --remove all --no-restart $UserPlist
 echo "Creating New Dock..."
-sudo -u $loggedInUser $dockutil --remove all --no-restart $UserPlist
-sudo -u $loggedInUser $dockutil --add '/Applications/Safari.app' --label 'Safari' --no-restart $UserPlist
-sudo -u $loggedInUser $dockutil --add '/Applications/Google Chrome.app' --label 'Google Chrome' --position 2 --no-restart $UserPlist
-sudo -u $loggedInUser $dockutil --add '/Applications/Microsoft Word.app' --label 'Microsoft Word' --position 3 --no-restart $UserPlist
-sudo -u $loggedInUser $dockutil --add '/Applications/Microsoft Excel.app' --label 'Microsoft Excel' --position 4 --no-restart $UserPlist
-sudo -u $loggedInUser $dockutil --add '/Applications/Microsoft PowerPoint.app' --label 'Microsoft PowerPoint' --position 5 --no-restart $UserPlist
-sudo -u $loggedInUser $dockutil --add '/Applications/PlaybackPro Plus X  IA - 4.0.5.app' --label 'PlaybackPro Plus X IA' --position 7 --no-restart $UserPlist
-sudo -u $loggedInUser $dockutil --add '/Applications/PlaybackPro Plus X USB - 4.0.5.app' --label 'PlaybackPro Plus X USB' --position 8 --no-restart $UserPlist
-sudo -u $loggedInUser $dockutil --add '/Applications/HandBrake.app' --label 'HandBrake' --position 9 --no-restart $UserPlist
-sudo -u $loggedInUser $dockutil --add '/Applications/zoom.us.app' --label 'Zoom' --position 10 --no-restart $UserPlist
+sudo -u avfx $dockutil --remove all --no-restart $UserPlist
+sudo -u avfx $dockutil --add '/Applications/Safari.app' --label 'Safari' --no-restart $UserPlist
+sudo -u avfx $dockutil --add '/Applications/Google Chrome.app' --label 'Google Chrome' --position 2 --no-restart $UserPlist
+sudo -u avfx $dockutil --add '/Applications/Microsoft Word.app' --label 'Microsoft Word' --position 3 --no-restart $UserPlist
+sudo -u avfx $dockutil --add '/Applications/Microsoft Excel.app' --label 'Microsoft Excel' --position 4 --no-restart $UserPlist
+sudo -u avfx $dockutil --add '/Applications/Microsoft PowerPoint.app' --label 'Microsoft PowerPoint' --position 5 --no-restart $UserPlist
+sudo -u avfx $dockutil --add '/Applications/PlaybackPro Plus X  IA - 4.0.5.app' --label 'PlaybackPro Plus X IA' --position 7 --no-restart $UserPlist
+sudo -u avfx $dockutil --add '/Applications/PlaybackPro Plus X USB - 4.0.5.app' --label 'PlaybackPro Plus X USB' --position 8 --no-restart $UserPlist
+sudo -u avfx $dockutil --add '/Applications/HandBrake.app' --label 'HandBrake' --position 9 --no-restart $UserPlist
+sudo -u avfx $dockutil --add '/Applications/zoom.us.app' --label 'Zoom' --position 10 --no-restart $UserPlist
 echo "Restarting Dock..."
-sudo -u $loggedInUser $killall Dock
+sudo -u avfx $killall Dock
 
 exit 0
