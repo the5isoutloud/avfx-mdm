@@ -5,8 +5,6 @@
 	<key>PayloadContent</key>
 	<array>
 		<dict>
-			<key>DialogListOptions</key>
-			<string>--icon "https://storage.googleapis.com/avfx_public/mosyle-mdm/images/avfx.png"</string>
 			<key>Installomator</key>
 			<array>
 				<dict>
@@ -84,7 +82,7 @@
 			<key>PayloadType</key>
 			<string>com.secondsonconsulting.baseline</string>
 			<key>PayloadUUID</key>
-			<string>B24B9FAC-FDE1-4C15-9EF5-A571CFCF37AA</string>
+			<string>BE8DC962-D893-48C6-9164-D4D9E1E38E4B</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>ProgressBar</key>
@@ -112,6 +110,16 @@
 					<string>https://raw.githubusercontent.com/brunerd/macAdminTools/main/Scripts/setAutoLogin.sh</string>
 				</dict>
 				<dict>
+					<key>Arguments</key>
+					<string>https://storage.googleapis.com/avfx_public/mosyle-mdm/images/macOS_bg.png</string>
+					<key>DisplayName</key>
+					<string>Set Background</string>
+					<key>Icon</key>
+					<string>SF=menubar.dock.rectangle,color=accent</string>
+					<key>ScriptPath</key>
+					<string>https://raw.githubusercontent.com/avfx-it/avfx-mdm/main/scripts/setBackground.sh</string>
+				</dict>
+				<dict>
 					<key>DisplayName</key>
 					<string>Set Dock</string>
 					<key>Icon</key>
@@ -123,13 +131,13 @@
 		</dict>
 	</array>
 	<key>PayloadDisplayName</key>
-	<string>AVFX-Rental Baseline</string>
+	<string>AVFX-Rental-Baseline</string>
 	<key>PayloadIdentifier</key>
-	<string>com.avfx.baseline.default</string>
+	<string>com.avfx.rental.baseline</string>
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>3DE7C3A0-81FA-4B3D-A879-8B675B155886</string>
+	<string>E077C712-3DEE-47B2-88C2-7E5B3AFEC026</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>
