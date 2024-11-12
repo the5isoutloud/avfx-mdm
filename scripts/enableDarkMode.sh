@@ -1,4 +1,2 @@
 #!/bin/bash
-
-defaults write -g AppleInterfaceStyle -string "Dark"
-killall Dock
+osascript -e 'tell application "System Events" to tell appearance preferences to set dark mode to true'
